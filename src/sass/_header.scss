@@ -1,0 +1,28 @@
+#header {
+    font-size: 1.25em;
+    margin: 3em auto 2em;
+    text-align: center;
+    width: 95%;
+
+    @media screen and (max-width: 600px) {
+        margin-top: 2em;
+    }
+}
+.intro-arc {
+    color: #aaa;
+    font-size: .825em;
+    margin: 0 0 3em;
+}
+.intro-main {
+    font-size: 1.25em;
+
+    strong {
+        font-size: 2em;
+        font-weight: bold;
+        display: block; 
+    }
+}
+#arrow {
+    position: relative;
+    right: -2em;
+}
