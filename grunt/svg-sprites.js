@@ -2,7 +2,7 @@ module.exports = function(grunt) {
 
   grunt.config('svg-sprites', {
     options: {
-        spriteElementPath: "src/svg/minified",
+        spriteElementPath: "src/svg/color/minified",
         spritePath: "build/css/sprites",
         cssPath: "build/css"
         // more options
@@ -11,10 +11,11 @@ module.exports = function(grunt) {
         // more options
         options: {
 
-                prefix: 'testsizes',
+                prefix: 'tc',
                 sizes: {
-                    large: 4,
-                    med: 2,
+                    xl: 16,
+                    large: 8,
+                    med: 4,
                     small: 1
                 },
                 refSize: 32,

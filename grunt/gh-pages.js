@@ -4,7 +4,7 @@ module.exports = function(grunt) {
     site: {
       options: {
         base: 'build/',
-        branch: 'gh_pages'
+        branch: 'gh-pages'
       },
       src: ['**/*'],
     },

@@ -7,16 +7,27 @@ module.exports = function(grunt) {
               { removeUselessStrokeAndFill: false }
             ]
         },
-        nfl: {                     // Target
-            files: [{               // Dictionary of files
-                expand: true,       // Enable dynamic expansion.
-                cwd: 'src/svg/original',         // Src matches are relative to this path.
-                src: ['**/*.svg'],  // Actual pattern(s) to match.
-                dest: 'src/svg/minified',       // Destination path prefix.
-                ext: '.svg'     // Dest filepaths will have this extension.
-                // ie: optimise img/src/branding/logo.svg and store it in img/branding/logo.min.svg
-            }]
-        }
+        color: {
+          files: [{               // Dictionary of files
+              expand: true,       // Enable dynamic expansion.
+              cwd: 'src/svg/color/original',         // Src matches are relative to this path.
+              src: ['**/*.svg'],  // Actual pattern(s) to match.
+              dest: 'src/svg/color/minified',       // Destination path prefix.
+              ext: '.svg'     // Dest filepaths will have this extension.
+              // ie: optimise img/src/branding/logo.svg and store it in img/branding/logo.min.svg
+          }]
+        },
+        bw: {
+          files: [{               // Dictionary of files
+              expand: true,       // Enable dynamic expansion.
+              cwd: 'src/svg/bw/original',         // Src matches are relative to this path.
+              src: ['**/*.svg'],  // Actual pattern(s) to match.
+              dest: 'src/svg/bw/minified',       // Destination path prefix.
+              ext: '.svg'     // Dest filepaths will have this extension.
+              // ie: optimise img/src/branding/logo.svg and store it in img/branding/logo.min.svg
+          }]
+        }                
+            
   });
 
   grunt.loadNpmTasks('grunt-svgmin');
