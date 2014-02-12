@@ -2,11 +2,11 @@
 
 @font-face {
 	font-family:"icons";
-	src:url("icons-966102504c86dacb139b38029b2f5813.eot");
-	src:url("icons-966102504c86dacb139b38029b2f5813.eot?#iefix") format("embedded-opentype"),
-		url("icons-966102504c86dacb139b38029b2f5813.woff") format("woff"),
-		url("icons-966102504c86dacb139b38029b2f5813.ttf") format("truetype"),
-		url("icons-966102504c86dacb139b38029b2f5813.svg?#icons") format("svg");
+	src:url("icons-2cbe3dd057d8416a9549499c3603c1bc.eot");
+	src:url("icons-2cbe3dd057d8416a9549499c3603c1bc.eot?#iefix") format("embedded-opentype"),
+		url("icons-2cbe3dd057d8416a9549499c3603c1bc.woff") format("woff"),
+		url("icons-2cbe3dd057d8416a9549499c3603c1bc.ttf") format("truetype"),
+		url("icons-2cbe3dd057d8416a9549499c3603c1bc.svg?#icons") format("svg");
 	font-weight:normal;
 	font-style:normal;
 }
@@ -29,181 +29,151 @@
 /* Icons */
 
 
-.icon_arizona-cardinals:before {
+.icon_nfl-arizona-cardinals:before {
 	content:"\e001";
 }
 
 
-.icon_atlanta-falcons:before {
+.icon_nfl-atlanta-falcons:before {
 	content:"\e002";
 }
 
 
-.icon_baltimore-ravens:before {
+.icon_nfl-baltimore-ravens:before {
 	content:"\e003";
 }
 
 
-.icon_buffalo-bills:before {
+.icon_nfl-buffalo-bills:before {
 	content:"\e004";
 }
 
 
-.icon_carolina-panthers:before {
+.icon_nfl-chicago-bears:before {
 	content:"\e005";
 }
 
 
-.icon_chicago-bears:before {
+.icon_nfl-cincinati-bengals:before {
 	content:"\e006";
 }
 
 
-.icon_cincinnati-bengals:before {
+.icon_nfl-cleveland-browns:before {
 	content:"\e007";
 }
 
 
-.icon_cleveland-browns:before {
+.icon_nfl-dallas-cowboys:before {
 	content:"\e008";
 }
 
 
-.icon_dallas-cowboys:before {
+.icon_nfl-denver-broncos:before {
 	content:"\e009";
 }
 
 
-.icon_denver-broncos:before {
+.icon_nfl-detroit-lions:before {
 	content:"\e00a";
 }
 
 
-.icon_detroit-lions:before {
+.icon_nfl-greenbay-packers:before {
 	content:"\e00b";
 }
 
 
-.icon_green-bay-packers:before {
+.icon_nfl-houston-texans:before {
 	content:"\e00c";
 }
 
 
-.icon_houston-texans:before {
+.icon_nfl-indianapolis-colts:before {
 	content:"\e00d";
 }
 
 
-.icon_indianapolis-colts:before {
+.icon_nfl-kansascity-chiefs:before {
 	content:"\e00e";
 }
 
 
-.icon_kansas-city-chiefs:before {
+.icon_nfl-miami-dolphins:before {
 	content:"\e00f";
 }
 
 
-.icon_miami-dolphins:before {
+.icon_nfl-minnesota-vikings:before {
 	content:"\e010";
 }
 
 
-.icon_minnesota-vikings:before {
+.icon_nfl-newengland-patriots:before {
 	content:"\e011";
 }
 
 
-.icon_new-england-patriots:before {
+.icon_nfl-neworleans-saints:before {
 	content:"\e012";
 }
 
 
-.icon_new-orleans-saints:before {
+.icon_nfl-newyork-giants:before {
 	content:"\e013";
 }
 
 
-.icon_new-york-giants:before {
+.icon_nfl-newyork-jets:before {
 	content:"\e014";
 }
 
 
-.icon_new-york-jets:before {
+.icon_nfl-oakland-raiders:before {
 	content:"\e015";
 }
 
 
-.icon_nfl-arizona-cardinals:before {
+.icon_nfl-philadelphia-eagles:before {
 	content:"\e016";
 }
 
 
-.icon_nfl-atlanta-falcons:before {
+.icon_nfl-pittsburg-steelers:before {
 	content:"\e017";
 }
 
 
-.icon_nfl-baltimore-ravens:before {
+.icon_nfl-sandiego-chargers:before {
 	content:"\e018";
 }
 
 
-.icon_nfl-dallas-cowboys-copy:before {
+.icon_nfl-sanfrancisco-49ers:before {
 	content:"\e019";
 }
 
 
-.icon_nfl-dallas-cowboys:before {
+.icon_nfl-seattle-seahawks:before {
 	content:"\e01a";
 }
 
 
-.icon_oakland-raiders:before {
+.icon_nfl-stlouis-rams:before {
 	content:"\e01b";
 }
 
 
-.icon_philadelphia-eagles:before {
+.icon_nfl-tampabay-buccaneers:before {
 	content:"\e01c";
 }
 
 
-.icon_pittsburgh-steelers:before {
+.icon_nfl-tennessee-titans:before {
 	content:"\e01d";
 }
 
 
-.icon_san-diego-chargers:before {
+.icon_nfl-washington-redskins:before {
 	content:"\e01e";
-}
-
-
-.icon_san-francisco-49ers:before {
-	content:"\e01f";
-}
-
-
-.icon_seattle-seahawks:before {
-	content:"\e020";
-}
-
-
-.icon_st-louis-rams:before {
-	content:"\e021";
-}
-
-
-.icon_tampa-bay-buccaneers:before {
-	content:"\e022";
-}
-
-
-.icon_tennessee-titans:before {
-	content:"\e023";
-}
-
-
-.icon_washington-redskins:before {
-	content:"\e024";
 }
