@@ -11,7 +11,7 @@ module.exports = function(grunt) {
   // Register alias tasks.
   grunt.registerTask('build',
     'Build site files for testing or deployment.',
-    ['jshint', 'clean', 'compass:dev', 'copy', 'svgmin', 'webfont', 'svg-sprites:nfl']);
+    ['clean', 'compass:dev', 'copy', 'svgmin', 'webfont', 'svg-sprites:nfl']);
 
   grunt.registerTask('deploy',
     'Deploy site via gh-pages.',
