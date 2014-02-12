@@ -1,0 +1,32 @@
+{
+	"leagues": [{
+		"league" : "nfl",
+		"teams": [
+			{
+				"team": "Arizona Cardinals",
+				"colors": ["870619", "000000", "FFFFFF"]
+			},
+			{
+				"team": "Atlanta Falcons",
+				"colors": ["BD0D18", "000000", "FFFFFF", "DCE0E5"]
+			},
+			{
+				"team": "Dallas Cowboys",
+				"colors": ["002244", "8C8B8A", "FFFFFF"]
+			},
+			{
+				"team": "Houston Texans",
+				"colors": ["02253A", "B31B34", "FFFFFF"]
+			},
+			{
+				"team": "Chicago Bears",
+				"colors": ["03202F", "DD4814", "FFFFFF"]
+			},
+			{
+				"team": "Cincinnati Bengals",
+				"colors": ["000000", "FB4F14", "FFFFFF"]
+			}
+		]
+		}
+	]
+}

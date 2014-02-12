@@ -4,6 +4,8 @@ module.exports = function(grunt) {
 		dist: {
             src: [
                 'vendor/jquery/jquery.js',
+                'vendor/handlebars/handlebars.js',
+                'src/js/dataService.js',
                 'src/js/index.js'
             ],
             dest: 'build/js/app.js',

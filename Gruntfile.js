@@ -19,7 +19,7 @@ module.exports = function(grunt) {
 
   grunt.registerTask('dev',
     'Start a live-reloading dev webserver on localhost.',
-    ['clean:build', 'compass', 'copy', 'concat', 'svgmin', 'webfont', 'svg-sprites:nfl', 'connect:dev', 'watch']);
+    ['clean:build', 'handlebars', 'compass', 'copy', 'concat', 'svgmin', 'webfont', 'svg-sprites:nfl', 'connect:dev', 'watch']);
 
   grunt.registerTask('prod',
     'Publish to build/wwwroot and start a webserver on localhost.',

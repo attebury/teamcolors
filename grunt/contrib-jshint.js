@@ -3,7 +3,7 @@ module.exports = function(grunt) {
   grunt.config('jshint', {
     config: {
       options: {jshintrc: '.jshintrc'},
-      src: ['Gruntfile.js', 'src/js/app.js'],
+      src: ['Gruntfile.js', 'src/js/index.js'],
     }
   });
 

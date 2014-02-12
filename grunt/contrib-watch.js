@@ -5,8 +5,8 @@ module.exports = function(grunt) {
       options: {
         livereload: true,
       },
-      files: ['Gruntfile.js', 'grunt/*.js'],
-      tasks: ['jshint'],
+      files: ['Gruntfile.js', 'grunt/*.js', 'src/js/index.js', 'src/index.html', 'src/sass/*.scss'],
+      tasks: ['compass', 'copy', 'concat'],
     },
       compass: {
         files: ['src/sass/*'],
